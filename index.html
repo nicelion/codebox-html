@@ -1,0 +1,91 @@
+<html>
+
+<body>
+
+<style 
+
+type="text/css">
+
+.codebox {
+    /* Below are styles for the codebox (not the code itself) */
+    border:1px solid black;
+    background-color:#000;
+    width: 500px;
+    height: 302px;
+    overflow:auto;    
+    padding:10px;
+    position: center;
+        overflow: scroll;
+
+}
+.codebox code {
+    /* Styles in here affect the text of the codebox */
+    font-size:1em;
+    color: #fff;
+        font-family:  Courier New, monospace, serif;
+
+    /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
+
+.codebox comment {
+	font-size: 1em;
+    color: #41CC44;
+}
+.codebox string {
+	color: #F42C38;
+	font-size: 1em;
+}
+.codebox character {
+	color: #776DFF;
+	font-size: 1em
+}
+.codebox number {
+	color: #3300FF;
+	font-size: 1em
+}
+.codebox keywords {
+	color: #D41895;
+	font-size: 1em;
+}
+.codebox orangeColor {
+	color: #E47C48;
+	font-size: 1em;
+}
+.codebox urls {
+	font-size: 1em;
+	color: #1A19FF;
+}
+.codebox teal {
+	color: #40FF82
+	font-size: 1em;
+}
+.codebox blue {
+	color: #229FFF;
+	font-size: 1em;
+}
+</style>
+<!--
+<div class="codebox" style="border:1px solid black;width:700px;height:302;overflow-y:hidden;overflow-x:scroll;">
+    <code>   
+        <blue>SKSpriteNode</blue> *node = [<blue>SKSpriteNode</blue> withImageNamed:<string>@"node.png"</string>];
+        		 hello
+        <br>
+        [<keywords>self</keywords> addChild: node];
+
+    </code>
+</div>
+-->
+
+<div style="border:5px solid orange;width:700px;height:302px;overflow-y:hidden;overflow-x:scroll;" class="codebox">
+ <comment>//CODE</comment>
+<p style="width:120%;">
+	<code><blue>SKSpriteNode</blue> *node = [<blue>SKSpriteNode</blue> withImageNamed:<string>@"node.png"</string>];
+        <br>
+        [<keywords>self</keywords> addChild: node];</code>
+ 
+</p>
+</div>
+
+</body>
+
+</html>
